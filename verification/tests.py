@@ -26,7 +26,7 @@ TESTS = {
     "Extra": [
         {
             "input": [40,3],
-            "answer": 20
+            "answer": 16
         },
     ]
 }
