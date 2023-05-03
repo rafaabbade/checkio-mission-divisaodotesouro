@@ -1,19 +1,23 @@
-def soma(a,b):
+def moedas_capitao(moedas, marinheiros):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(moedas_capitao(4,2))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
-    
+
+# Teste 1
+assert moedas_capitao(28, 2) == 14
+
+# Teste 2
+assert moedas_capitao(54, 4) == 18
+
+# Teste 3
+assert moedas_capitao(12, 1) == 8
+
+# Teste 4
+assert moedas_capitao(40, 3) == 20
+
 print("Seu código passou pelos testes, clique em Check para avançar!")
